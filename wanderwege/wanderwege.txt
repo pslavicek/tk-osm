@@ -1,4 +1,4 @@
-﻿; wanderwege.TYP
+
 
 [_id]
 ProductCode=1
@@ -6,14 +6,14 @@ FID=7128
 CodePage=1252
  [End]
 
-;=========== COMMENTS ======
+;=========== COMMENTAIRES ======
 [_comments]
 [End]
 
 
 
 
-;=========== POLYGONES : DRAW ORDER PRIORITY ======
+;=========== POLYGONES : PRIORITE DANS L'AFFICHAGE ======
 [_drawOrder]
 [End]
 
@@ -67,7 +67,7 @@ Xpm="32 3 2  1"
 "##!##!##!##!##!##!##!##!##!##!##"
 "!!#!!#!!#!!#!!#!!#!!#!!#!!#!!#!!"
 ;12345678901234567890123456789012
-String1=0x02,GrÃ¼nzug
+String1=0x02,GrÃƒÆ’Ã‚Â¼nzug
 String2=0x04,Greenway
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
@@ -910,28 +910,21 @@ CustomColor=No
 Type=0x029
 SubType=0x05
 ;GRMN_TYPE: //
-String1=0x02,Infotafel
 ExtendedLabels=N
-DayXpm="10 11 7 1"   Colormode=32
-"!	c #003399"  alpha=0
-"#	c #003298"  alpha=0
-"%	c #7490C0"  alpha=0
-"?	c #FFFFFF"  alpha=0
-"$	c #003198"  alpha=0
-"*	c #063599"  alpha=0
-"=	c #003097"  alpha=0
-"!##%?%##!!"
-"!##???#$#!"
-"!!#%?%###!"
-"!!#####!#!"
-"!!*???###!"
-"!!=#??###!"
-"!!##??#!#!"
-"!!##??#!#!"
-"#!##??#!#!"
-"!##????##!"
-"!$#######!"
-;1234567890
+DayXpm="9 9 3 1"   Colormode=16
+"!	c #267F00"
+"#	c #FFFFFF"
+"  	c none"
+"  !!!!!  "
+" !!!#!!! "
+"!!!!!!!!!"
+"!!!##!!!!"
+"!!!!#!!!!"
+"!!!!#!!!!"
+"!!!###!!!"
+" !!!!!!! "
+"  !!!!!  "
+;123456789
 [end]
 
 
@@ -1231,27 +1224,19 @@ SubType=0x0b
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 8 1"   Colormode=32
-"!	c #000000"  alpha=0
-"#	c #071800"  alpha=0
-"%	c #267F00"  alpha=0
-"?	c #FFFFFF"  alpha=0
-"$	c #FEFEFE"  alpha=0
-"*	c #92BE7F"  alpha=0
-"=	c #91BE7E"  alpha=0
-"1	c #FDFDFD"  alpha=0
-"!!!!!!!!!!!!!!!"
-"#%??????????$$!"
-"#%%%??????????!"
-"!%%%%%??????$?!"
-"!??%%%%*?$$???!"
-"!????%%%%?????!"
-"!??$?$=%%%%???!"
-"!????$??%%%%%?!"
-"!?$1??????%%%%!"
-"!$??????????%%!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+DayXpm="9 9 2 1"   Colormode=32
+"!	c #267F00"  alpha=0
+"#	c #FFFFFF"  alpha=0
+"!!#######"
+"!!!######"
+"#!!!#####"
+"##!!!####"
+"###!!!###"
+"####!!!##"
+"#####!!!#"
+"######!!!"
+"#######!!"
+;123456789
 [end]
 
 
@@ -1319,23 +1304,20 @@ SubType=0x0e
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 4 1"   Colormode=32
-"!	c #000000"  alpha=0
-"#	c #FFFFFF"  alpha=0
-"%	c #0026FF"  alpha=0
-"?	c #7B8EFF"  alpha=0
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!######%######!"
-"!#####?%?#####!"
-"!#####%%%#####!"
-"!####?%%%?####!"
-"!####%%%%%####!"
-"!###%%%%%%%###!"
-"!##?%%%%%%%?##!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+DayXpm="9 9 3 1"   Colormode=32
+"!	c #FFFFFF"  alpha=0
+"#	c #0026FF"  alpha=0
+"%	c #0B8EFF"  alpha=0
+"!!!!!!!!!"
+"!!!!%!!!!"
+"!!!%#%!!!"
+"!!!###!!!"
+"!!%###%!!"
+"!!%###%!!"
+"!%#####%!"
+"!%#####%!"
+"!!!!!!!!!"
+;123456789
 [end]
 
 
@@ -1791,26 +1773,22 @@ DayXpm="13 9 4 1"   Colormode=32
 Type=0x033
 SubType=0x00
 ;GRMN_TYPE: //
-String1=0x02,Blauer Balken auf weiÃŸem Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 3 1"   Colormode=32
-"!	c #000000"  alpha=0
-"#	c #FFFFFF"  alpha=0
-"%	c #0026FF"  alpha=0
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+DayXpm="9 9 2 1"   Colormode=32
+"!	c #FFFFFF"  alpha=0
+"#	c #0026FF"  alpha=0
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"#########"
+"#########"
+"#########"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+;123456789
 [end]
 
 
@@ -1818,26 +1796,22 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x01
 ;GRMN_TYPE: //
-String1=0x02,Gelber Balken auf weiÃŸem Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 3 1"   Colormode=32
-"!	c #000000"  alpha=0
-"#	c #FFFFFF"  alpha=0
-"%	c #E2BD00"  alpha=0
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+DayXpm="9 9 2 1"   Colormode=32
+"!	c #FFFFFF"  alpha=0
+"#	c #E2BD00"  alpha=0
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"#########"
+"#########"
+"#########"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+;123456789
 [end]
 
 
@@ -1845,26 +1819,22 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x02
 ;GRMN_TYPE: //
-String1=0x02,GrÃ¼ner Balken auf weiÃŸem Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 3 1"   Colormode=32
-"!	c #000000"  alpha=0
-"#	c #FFFFFF"  alpha=0
-"%	c #267F00"  alpha=0
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+DayXpm="9 9 2 1"   Colormode=32
+"!	c #FFFFFF"  alpha=0
+"#	c #267F00"  alpha=0
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"#########"
+"#########"
+"#########"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+;123456789
 [end]
 
 
@@ -1872,26 +1842,22 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x03
 ;GRMN_TYPE: //
-String1=0x02,Roter Balken auf weiÃŸem Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 3 1"   Colormode=32
-"!	c #000000"  alpha=0
-"#	c #FFFFFF"  alpha=0
-"%	c #FF0000"  alpha=0
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!%%%%%%%%%%%%%!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+DayXpm="9 9 2 1"   Colormode=32
+"!	c #FFFFFF"  alpha=0
+"#	c #FF0000"  alpha=0
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"#########"
+"#########"
+"#########"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+;123456789
 [end]
 
 
@@ -1899,25 +1865,22 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x04
 ;GRMN_TYPE: //
-String1=0x02,Schwarzer Balken auf weiÃŸem Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
-DayXpm="15 11 2 1"   Colormode=32
+DayXpm="9 9 2 1"   Colormode=32
 "!	c #000000"  alpha=0
 "#	c #FFFFFF"  alpha=0
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!"
-"!!!!!!!!!!!!!!!"
-"!#############!"
-"!#############!"
-"!#############!"
-"!!!!!!!!!!!!!!!"
-;123456789012345
+"#########"
+"#########"
+"#########"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+"#########"
+"#########"
+"#########"
+;123456789
 [end]
 
 
@@ -1952,7 +1915,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x06
 ;GRMN_TYPE: //
-String1=0x02,Gelbes Kreuz auf weiÃŸem Grund
+String1=0x02,Gelbes Kreuz auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -1979,7 +1942,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x07
 ;GRMN_TYPE: //
-String1=0x02,GrÃ¼nes Kreuz auf weiÃŸem Grund
+String1=0x02,GrÃƒÆ’Ã‚Â¼nes Kreuz auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2006,7 +1969,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x08
 ;GRMN_TYPE: //
-String1=0x02,Rotes Kreuz auf weiÃŸem Grund
+String1=0x02,Rotes Kreuz auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2033,7 +1996,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x09
 ;GRMN_TYPE: //
-String1=0x02,Schwarzes Kreuz auf weiÃŸem Grund
+String1=0x02,Schwarzes Kreuz auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2059,7 +2022,7 @@ DayXpm="15 11 2 1"   Colormode=32
 Type=0x033
 SubType=0x0a
 ;GRMN_TYPE: //
-String1=0x02,Blauer Punkt auf weiÃŸem Grund
+String1=0x02,Blauer Punkt auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2087,7 +2050,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x0b
 ;GRMN_TYPE: //
-String1=0x02,Gelber Punkt auf weiÃŸem Grund
+String1=0x02,Gelber Punkt auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2115,7 +2078,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x0c
 ;GRMN_TYPE: //
-String1=0x02,GrÃ¼ner Punkt auf weiÃŸem Punkt
+String1=0x02,GrÃƒÆ’Ã‚Â¼ner Punkt auf weiÃƒÆ’Ã…Â¸em Punkt
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2145,7 +2108,7 @@ DayXpm="15 11 6 1"   Colormode=32
 Type=0x033
 SubType=0x0d
 ;GRMN_TYPE: //
-String1=0x02,Roter Punkt auf weiÃŸem Grund
+String1=0x02,Roter Punkt auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2173,7 +2136,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x0e
 ;GRMN_TYPE: //
-String1=0x02,Schwarzer Punkt auf weiÃŸem Grund
+String1=0x02,Schwarzer Punkt auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2357,7 +2320,7 @@ DayXpm="14 13 131 2"   Colormode=32
 Type=0x033
 SubType=0x10
 ;GRMN_TYPE: //
-String1=0x02,Blaue Raute auf weiÃŸem Grund
+String1=0x02,Blaue Raute auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2386,7 +2349,7 @@ DayXpm="15 11 5 1"   Colormode=32
 Type=0x033
 SubType=0x11
 ;GRMN_TYPE: //
-String1=0x02,Gelbe Raute auf weiÃŸem Grund
+String1=0x02,Gelbe Raute auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2415,7 +2378,7 @@ DayXpm="15 11 5 1"   Colormode=32
 Type=0x033
 SubType=0x12
 ;GRMN_TYPE: //
-String1=0x02,GrÃ¼ne Raute auf weiÃŸem Grund
+String1=0x02,GrÃƒÆ’Ã‚Â¼ne Raute auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2444,7 +2407,7 @@ DayXpm="15 11 5 1"   Colormode=32
 Type=0x033
 SubType=0x13
 ;GRMN_TYPE: //
-String1=0x02,Rote Raute auf weiÃŸem Grund
+String1=0x02,Rote Raute auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=N
 DayXpm="15 11 5 1"   Colormode=32
 "!	c #000000"  alpha=0
@@ -2471,7 +2434,7 @@ DayXpm="15 11 5 1"   Colormode=32
 Type=0x033
 SubType=0x14
 ;GRMN_TYPE: //
-String1=0x02,Schwarze Raute auf weiÃŸem Grund
+String1=0x02,Schwarze Raute auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2499,7 +2462,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x15
 ;GRMN_TYPE: //
-String1=0x02,Blauer Kreis auf weiÃŸem Grund
+String1=0x02,Blauer Kreis auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2527,7 +2490,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x16
 ;GRMN_TYPE: //
-String1=0x02,Gelber Kreis auf weiÃŸem Grund
+String1=0x02,Gelber Kreis auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2555,7 +2518,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x17
 ;GRMN_TYPE: //
-String1=0x02,GrÃ¼ner Kreis auf weiÃŸem Grund
+String1=0x02,GrÃƒÆ’Ã‚Â¼ner Kreis auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2583,7 +2546,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x18
 ;GRMN_TYPE: //
-String1=0x02,Roter Kreis auf weiÃŸem Grund
+String1=0x02,Roter Kreis auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2611,7 +2574,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x19
 ;GRMN_TYPE: //
-String1=0x02,Schwarzer Kreis auf weiÃŸem Grund
+String1=0x02,Schwarzer Kreis auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2638,7 +2601,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x1a
 ;GRMN_TYPE: //
-String1=0x02,Blauer LÃ¤ngsstreifen auf weiÃŸem Grund
+String1=0x02,Blauer LÃƒÆ’Ã‚Â¤ngsstreifen auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2665,7 +2628,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x1b
 ;GRMN_TYPE: //
-String1=0x02,Gelber LÃ¤ngsstreifen auf weiÃŸem Grund
+String1=0x02,Gelber LÃƒÆ’Ã‚Â¤ngsstreifen auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2692,7 +2655,7 @@ DayXpm="15 11 3 1"   Colormode=32
 Type=0x033
 SubType=0x1c
 ;GRMN_TYPE: //
-String1=0x02,GrÃ¼ner LÃ¤ngsstreifen auf weiÃŸem Grund
+String1=0x02,GrÃƒÆ’Ã‚Â¼ner LÃƒÆ’Ã‚Â¤ngsstreifen auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2720,7 +2683,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x1d
 ;GRMN_TYPE: //
-String1=0x02,Roter LÃ¤ngsstreifen auf weiÃŸem Grund
+String1=0x02,Roter LÃƒÆ’Ã‚Â¤ngsstreifen auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -2748,7 +2711,7 @@ DayXpm="15 11 4 1"   Colormode=32
 Type=0x033
 SubType=0x1e
 ;GRMN_TYPE: //
-String1=0x02,Schwarzer LÃ¤ngsstreifen auf weiÃŸem Grund
+String1=0x02,Schwarzer LÃƒÆ’Ã‚Â¤ngsstreifen auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -3489,7 +3452,7 @@ DayXpm="10 10 38 2"   Colormode=32
 Type=0x034
 SubType=0x09
 ;GRMN_TYPE: //
-String1=0x02,Rote E8 auf weiÃŸem Grund
+String1=0x02,Rote E8 auf weiÃƒÆ’Ã…Â¸em Grund
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 CustomColor=No
@@ -4394,6 +4357,67 @@ DayXpm="9 9 4 1"   Colormode=32
 "!!%!!!%!!"
 "!!%!!!%!!"
 "!!%!!!%!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+;123456789
+[end]
+
+
+[_point]
+Type=0x035
+SubType=0x0a
+;GRMN_TYPE: //
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="9 9 4 1"   Colormode=32
+"!	c #267F00"  alpha=0
+"#	c #61A246"  alpha=0
+"%	c #FFFFFF"  alpha=0
+"?	c #B5D3A9"  alpha=0
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!#%!!#%!!"
+"!?%!!?%!!"
+"!!%!!!%!!"
+"!!%!!!%!!"
+"!!%!!!%!!"
+"!!!!!!!!!"
+"!!!!!!!!!"
+;123456789
+[end]
+
+
+[_point]
+Type=0x035
+SubType=0x0b
+;GRMN_TYPE: //
+ExtendedLabels=Y
+FontStyle=NoLabel (invisible)
+CustomColor=No
+DayXpm="9 9 15 1"   Colormode=32
+"!	c #267F00"  alpha=0
+"#	c #61A246"  alpha=0
+"%	c #FFFFFF"  alpha=0
+"?	c #F0F6EE"  alpha=0
+"$	c #F9FBF9"  alpha=0
+"*	c #7FB369"  alpha=0
+"=	c #B5D3A9"  alpha=0
+"1	c #3F8E1E"  alpha=0
+"2	c #EDF4EB"  alpha=0
+"3	c #94C082"  alpha=0
+"4	c #A3C893"  alpha=0
+"5	c #84B66F"  alpha=0
+"6	c #C3DBB9"  alpha=0
+"7	c #2B8206"  alpha=0
+"8	c #FEFEFE"  alpha=0
+"!!!!!!!!!"
+"!!!!!!!!!"
+"!#%!!?$*!"
+"!=%!!!12!"
+"!!%!!!34!"
+"!!%!!567!"
+"!!%!!8%%!"
 "!!!!!!!!!"
 "!!!!!!!!!"
 ;123456789
